@@ -1,20 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Saloni Gupta | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <h1>Hi, I'm Saloni Gupta 👋</h1>
+    <nav>
+    <div class="logo">Saloni Gupta</div>
 
-    <h2>MCA Student | Data Analyst | AI Website Developer</h2>
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
 
-    <p>
-        Welcome to my portfolio website.
-        Here you can explore my projects, skills and contact information.
-    </p>
+    <header class="hero">
+
+    <div class="hero-text">
+
+        <h1>Hi, I'm Saloni Gupta 👋</h1>
+
+        <h2>Data Analyst | AI Website Developer | MCA Student</h2>
+
+        <p>
+            I build data-driven dashboards, AI-powered websites, and analytical solutions.
+        </p>
+
+        <button>View Projects</button>
+        <button>Contact Me</button>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img src="profilepic.jpeg" alt="Saloni Gupta">
+
+    </div>
+
+</header>
+<section id="about" class="about">
+
+
+    <div class="about-content">
+        <h2>About Me</h2>
+
+        <p>
+            Hello! I'm <strong>Saloni Gupta</strong>, an MCA student with a passion for
+           Aspiring Data Analytics, Dashboard, Python, and SQL Enthsiast. 
+        </p>
+
+        <p>
+            I enjoy building modern websites, analyzing data, and learning new technologies.
+            My goal is to become a skilled Data Analyst and AI Developer while working on
+            real-world projects.
+        </p>
+
+    </div>
+
+</section>
+<section id="skills" class="skills">
+
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skill">
+            <h3>HTML</h3>
+            <div class="progress">
+                <div class="progress-bar html">80%</div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <h3>CSS</h3>
+            <div class="progress">
+                <div class="progress-bar css">50%</div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <h3>JavaScript</h3>
+            <div class="progress">
+                <div class="progress-bar js">30%</div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <h3>Python</h3>
+            <div class="progress">
+                <div class="progress-bar python">70%</div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <h3>SQL</h3>
+            <div class="progress">
+                <div class="progress-bar sql">75%</div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= Projects Section ================= -->
+
+<section id="projects" class="projects">
+
+    <h2>My Projects</h2>
+
+    <div class="project-container">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+
+            <img src="image/kpmg-dashboard.png" alt="KPMG Dashboard">
+
+            <div class="project-content">
+
+                <h3>KPMG Monthly Order Analytics Dashboard</h3>
+
+                <p>
+                    Designed an interactive business dashboard to analyze June monthly orders,
+                    KPIs, sales trends and restaurant performance.
+                </p>
+
+                <div class="tech-stack">
+                    <span>Power BI</span>
+                    <span>Excel</span>
+                    <span>AI Assisted</span>
+                </div>
+
+                <div class="project-buttons">
+                    <a href="#" class="btn">GitHub</a>
+                    <a href="#" class="btn btn-outline">View Project</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Project 2 -->
+
+        <div class="project-card">
+
+            <img src="image/restaurant-dashboard.png" alt="Restaurant Dashboard">
+
+            <div class="project-content">
+
+                <h3>Restaurant Analytics Dashboard</h3>
+
+                <p>
+                    Created an interactive dashboard to analyze restaurant ratings,
+                    cuisines, online delivery and city-wise performance.
+                </p>
+
+                <div class="tech-stack">
+                    <span>Power BI</span>
+                    <span>Data Visualization</span>
+                </div>
+
+                <div class="project-buttons">
+                    <a href="#" class="btn">GitHub</a>
+                    <a href="#" class="btn btn-outline">View Project</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Project 3 -->
+
+        <div class="project-card">
+
+            <img src="image/podcast-dashboard.png" alt="Podcast Dashboard">
+
+            <div class="project-content">
+
+                <h3>Raj Shamani Podcast Analysis</h3>
+
+                <p>
+                    Analyzed podcast performance using Google Sheets with charts,
+                    insights and data visualization.
+                </p>
+
+                <div class="tech-stack">
+                    <span>Google Sheets</span>
+                    <span>Charts</span>
+                </div>
+
+                <div class="project-buttons">
+                    <a href="#" class="btn">GitHub</a>
+                    <a href="#" class="btn btn-outline">View Project</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Project 4 -->
+
+        <div class="project-card">
+
+            <img src="image/sales-forecasting.png" alt="Sales Forecasting">
+
+            <div class="project-content">
+
+                <h3>Sales Forecasting using Python</h3>
+
+                <p>
+                    Built a machine learning project to forecast future sales
+                    using historical business data.
+                </p>
+
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>Google Colab</span>
+                </div>
+
+                <div class="project-buttons">
+                    <a href="#" class="btn">GitHub</a>
+                    <a href="#" class="btn btn-outline">View Project</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
